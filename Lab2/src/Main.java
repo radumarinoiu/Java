@@ -2,7 +2,7 @@ import java.time.LocalDate;
 import java.time.Month;
 
 public class Main {
-          public static void main(String[] args) {
+        public static void main(String[] args) {
 
         Student s1 = new Student("S1", 2);
         Student s2 = new Student("S2",2);
@@ -10,7 +10,7 @@ public class Main {
         Student s4 = new Student("S4",1);
 
 
-                  Application a1 = new Application("A1", LocalDate.of(2019, Month.JUNE, 1), Language.JAVA);
+        Application a1 = new Application("A1", LocalDate.of(2019, Month.JUNE, 1), Language.JAVA);
         Essay e1 = new Essay("E1", LocalDate.parse("2019-06-01"), Topic.ALGORITHMS);
 
 

@@ -4,6 +4,17 @@
     <list default="true" id="1d37ebb2-dfb4-4033-b4fc-f6833cec1eee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/Essay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/Essay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/ProjectImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-bonus/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-bonus/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-bonus/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-bonus/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-bonus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-bonus/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-rez1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-rez1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-rez1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-rez1/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +28,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="745">
-              <caret line="150" column="43" lean-forward="true" selection-start-line="150" selection-start-column="43" selection-end-line="150" selection-end-column="43" />
+            <state relative-caret-position="445">
+              <caret line="97" column="77" selection-start-line="97" selection-start-column="77" selection-end-line="97" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#printMatrix#0;class#Main#0" />
                 <element signature="method#drawCompleteGraph#0;class#Main#0" />
                 <element signature="method#drawCyclicGraph#0;class#Main#0" />
                 <element signature="method#drawRandomGraph#0;class#Main#0" />
-                <element signature="method#printOtherChecks#0;class#Main#0" />
+                <element signature="method#drawTreeGraph#0;class#Main#0" />
+                <element signature="method#DFS_Search#0;class#Main#0" />
               </folding>
             </state>
           </provider>
@@ -49,10 +61,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-571" />
-    <option name="y" value="-823" />
-    <option name="width" value="1293" />
-    <option name="height" value="707" />
+    <option name="x" value="205" />
+    <option name="width" value="1400" />
+    <option name="height" value="990" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -61,6 +72,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,11 +113,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -158,17 +170,18 @@
       <workItem from="1551099722373" duration="55000" />
       <workItem from="1551099897774" duration="559000" />
       <workItem from="1551358662457" duration="395000" />
+      <workItem from="1551362561712" duration="3856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9409000" />
+    <option name="totallyTimeSpent" value="13265000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-959" y="-1180" width="1936" height="1186" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08901919" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12885906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -186,7 +199,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Duplicate detector" order="12" weight="0.32953465" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32953465" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3282123" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -212,15 +225,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="150" column="43" lean-forward="true" selection-start-line="150" selection-start-column="43" selection-end-line="150" selection-end-column="43" />
+        <state relative-caret-position="445">
+          <caret line="97" column="77" selection-start-line="97" selection-start-column="77" selection-end-line="97" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#printMatrix#0;class#Main#0" />
             <element signature="method#drawCompleteGraph#0;class#Main#0" />
             <element signature="method#drawCyclicGraph#0;class#Main#0" />
             <element signature="method#drawRandomGraph#0;class#Main#0" />
-            <element signature="method#printOtherChecks#0;class#Main#0" />
+            <element signature="method#drawTreeGraph#0;class#Main#0" />
+            <element signature="method#DFS_Search#0;class#Main#0" />
           </folding>
         </state>
       </provider>

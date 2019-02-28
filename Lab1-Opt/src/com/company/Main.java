@@ -85,7 +85,37 @@ public class Main {
     }
 
     public static void drawTreeGraph(int n){
+        int[][] mat = new int[n][n];
+        mat[0][1] = mat[1][0] = 1;
+        for(int i = 1; i < n; i++){
+            int parent = (int)Math.round(Math.random() * (i-1));
+            mat[i][parent] = mat[parent][i] = 1;
+        }
+        printMatrix(mat);
+        printOtherChecks(mat);
+    }
 
+    public static void DFS_Search(int[][] mat, int start_node, int[] visited){
+        for(int i = 0; i < mat.length; i++){
+            if(mat[start_node][i] == 1 && visited[i] == 0){
+                visited[i] = 1;
+                DFS_Search(mat, i, visited);
+            }
+        }
+    }
+
+    public static int getNrOfCycles(int[][] mat){
+        int n = mat.length;
+        int cycles = 0;
+        int[] visited = new int[n];
+        for(int start_node = 0; start_node < n; start_node++){
+            if(visited[start_node] == 0){
+                visited[start_node] = 1;
+                cycles++;
+                DFS_Search(mat, start_node, visited);
+            }
+        }
+        return cycles;
     }
 
     public static void printOtherChecks(int[][] mat){
@@ -116,6 +146,7 @@ public class Main {
             System.out.println("Degree sum is equal to 2 * Nr Of Edges");
         else
             System.out.println("Degree sum is not equal to 2 * Nr Of Edges");
+        System.out.println("Number of connected components: " + getNrOfCycles(mat));
         System.out.println();
         System.out.println();
     }
@@ -138,14 +169,15 @@ public class Main {
                         graph_type = args[1];
                     }
                     start_time = new Timestamp(System.currentTimeMillis());
-                    if(graph_type == "complete")
+                    if(graph_type.equals("complete"))
                         drawCompleteGraph(n);
-                    else if(graph_type == "cyclic")
+                    else if(graph_type.equals("cyclic"))
                         drawCyclicGraph(n);
-                    else if(graph_type == "random")
+                    else if(graph_type.equals("random"))
                         drawRandomGraph(n);
-                    else if(graph_type == "tree")
+                    else if(graph_type.equals("tree")) {
                         drawTreeGraph(n);
+                    }
                     else{
                         drawCompleteGraph(n);
                         drawCyclicGraph(n);
