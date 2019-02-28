@@ -1,6 +1,9 @@
 public class Application {
     public enum Language{
-        CPP, C, JAVA, 
+        CPP, C, JAVA, PYTHON
     }
-    String language;
+
+    protected Language language;
+
+    public Application(String group, )
 }

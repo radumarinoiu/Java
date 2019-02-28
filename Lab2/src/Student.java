@@ -1,6 +1,6 @@
 public class Student {
-    public String name;
-    public int year;
+    protected String name;
+    protected int year;
     public Student(String s, int i) {
         this.year=i;
         this.name=s;

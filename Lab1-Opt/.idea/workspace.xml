@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d37ebb2-dfb4-4033-b4fc-f6833cec1eee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/src/Essay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/Essay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/src/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/src/ProjectImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-bonus/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-bonus/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-bonus/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-bonus/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-bonus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-bonus/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-rez1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-rez1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-rez1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Laboratoare rezolvate din anii precedenti/lab2-rez1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/Student.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -175,12 +168,12 @@
       <workItem from="1551099722373" duration="55000" />
       <workItem from="1551099897774" duration="559000" />
       <workItem from="1551358662457" duration="395000" />
-      <workItem from="1551362561712" duration="3856000" />
+      <workItem from="1551362561712" duration="4155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13265000" />
+    <option name="totallyTimeSpent" value="13564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
