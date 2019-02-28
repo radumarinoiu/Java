@@ -6,8 +6,11 @@ public class Main {
 
         Student s1 = new Student("S1", 2);
         Student s2 = new Student("S2",2);
+        Student s3 = new Student("S3",1);
+        Student s4 = new Student("S4",1);
 
-        Application a1 = new Application("A1", LocalDate.of(2019, Month.JUNE, 1), Language.JAVA);
+
+                  Application a1 = new Application("A1", LocalDate.of(2019, Month.JUNE, 1), Language.JAVA);
         Essay e1 = new Essay("E1", LocalDate.parse("2019-06-01"), Topic.ALGORITHMS);
 
 
