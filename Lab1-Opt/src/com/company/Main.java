@@ -84,6 +84,10 @@ public class Main {
         printOtherChecks(mat);
     }
 
+    public static void drawTreeGraph(int n){
+
+    }
+
     public static void printOtherChecks(int[][] mat){
         int n = mat.length;
         int edges = 0, sum_degree = 0, min_degree = n, max_degree = 0;
@@ -123,16 +127,31 @@ public class Main {
             e.printStackTrace();
         }
         int n = 0;
-        if(args.length == 1){
+        String graph_type = "";
+        if(args.length >= 1){
             try{
                 n = Integer.parseInt(args[0]);
                 if(n%2==1){
                     if(n>60)
                         do_print = false;
+                    if(args.length == 2){
+                        graph_type = args[1];
+                    }
                     start_time = new Timestamp(System.currentTimeMillis());
-                    drawCompleteGraph(n);
-                    drawCyclicGraph(n);
-                    drawRandomGraph(n);
+                    if(graph_type == "complete")
+                        drawCompleteGraph(n);
+                    else if(graph_type == "cyclic")
+                        drawCyclicGraph(n);
+                    else if(graph_type == "random")
+                        drawRandomGraph(n);
+                    else if(graph_type == "tree")
+                        drawTreeGraph(n);
+                    else{
+                        drawCompleteGraph(n);
+                        drawCyclicGraph(n);
+                        drawRandomGraph(n);
+                        drawTreeGraph(n);
+                    }
                     end_time = new Timestamp(System.currentTimeMillis());
                 }
                 else
