@@ -9,7 +9,10 @@ public class Main {
         Student s3 = new Student("S3",1);
         Student s4 = new Student("S4",1);
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
         Application a1 = new Application("A1", LocalDate.of(2019, Month.JUNE, 1), Language.JAVA);
         Essay e1 = new Essay("E1", LocalDate.parse("2019-06-01"), Topic.ALGORITHMS);
 
