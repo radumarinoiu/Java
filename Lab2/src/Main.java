@@ -9,9 +9,10 @@ public class Main {
                 Student s3 = new Student("S3",1);
                 Student s4 = new Student("S4",1);
 
-<<<<<<< Updated upstream
 
                 Application a1 = new Application("A1", LocalDate.of(2019, Month.JUNE, 1), Application.Language.JAVA);
+                Application a2 = new Application("A3", LocalDate.of(2018, Month.JULY, 1), Application.Language.CPP);
+                Application a3 = new Application("A4", LocalDate.of(2018, Month.JUNE, 1), Application.Language.C);
                 Essay e1 = new Essay("E1", LocalDate.parse("2019-06-01"), Essay.Topic.ALGORITHMS);
 
 
@@ -22,5 +23,9 @@ public class Main {
                 Problem problem = new Problem();
                 problem.setStudents(s1, s2, s3, s4);
                 System.out.println(problem);
+                System.out.println();
+                System.out.println(s1);
+                System.out.println();
+                System.out.println(s2);
         }
 }
