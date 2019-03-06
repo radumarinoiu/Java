@@ -22,9 +22,6 @@ public abstract class Project {
 
     @Override
     public String toString() {
-        return "Project{" +
-                "name='" + name + '\'' +
-                ", deadline=" + deadline +
-                '}';
+        return name;
     }
 }

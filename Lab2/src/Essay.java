@@ -10,13 +10,6 @@ public class Essay extends Project{
         this.topic = topic;
     }
 
-    @Override
-    public String toString() {
-        return "Essay{" +
-                "topic=" + topic +
-                '}';
-    }
-
     public enum Topic{
         ALGORITHMS, DATA_STRUCTURES, WEB, DATABASES;
     }

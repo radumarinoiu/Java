@@ -10,13 +10,6 @@ public class Application extends Project{
         this.language = language;
     }
 
-    @Override
-    public String toString() {
-        return "Application{" +
-                "language=" + language +
-                '}';
-    }
-
     public enum Language{
         CPP, C, JAVA, PYTHON
     }
