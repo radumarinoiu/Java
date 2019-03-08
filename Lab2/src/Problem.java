@@ -11,6 +11,17 @@ public class Problem {
     private Set<Student> students;
     private Set<Match> matches;
 
+    /**
+     * Given multiple Students as arguments it
+     * analyzes their preferences and generates
+     * a matchlist by pairing every student to
+     * a project, if possible. When not possible,
+     * it skips the student. All the students and
+     * projects matched are unique, so that there are
+     * no identical projects and no identical students.
+     *
+     * @param students Multiple Students enumerated as arguments
+     */
     public void setStudents(Student... students){
         this.taken_projects = new HashSet<>();
         this.students = new HashSet<>();

@@ -3,7 +3,7 @@ package classes;
 import interfaces.Visitable;
 import interfaces.Classifiable;
 
-    public class Church extends Node implements Classifiable,Visitable{
+    public class Church extends Node implements Classifiable, Visitable{
     private String openingHours;
     private String rank;
 

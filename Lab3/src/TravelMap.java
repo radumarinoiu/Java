@@ -34,8 +34,9 @@ public class TravelMap {
        Collections.sort(Nodes,nodeNameComparator);
        return Nodes;
     }
+
     /**
-     * comparator cu ajutorul caruia compar dupa nume nodurile
+     * Comparator for node names
      */
     Comparator<Node> nodeNameComparator= new Comparator<Node>(){
         @Override

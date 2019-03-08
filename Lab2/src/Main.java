@@ -26,6 +26,8 @@ public class Main {
                 Problem problem = new Problem();
                 problem.setStudents(s1, s2, s3, s4);
                 System.out.println(problem);
-                System.out.println(problem.getProjects()[0]);
+                System.out.print("Projects: ");
+                for(Project pr: problem.getProjects())
+                        System.out.print(pr + " ");
         }
 }

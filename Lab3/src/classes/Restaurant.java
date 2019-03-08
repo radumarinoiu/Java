@@ -1,9 +1,19 @@
 package classes;
 
+import interfaces.Payable;
 import interfaces.Visitable;
 import interfaces.Classifiable;
 
-public class Restaurant extends Node implements Classifiable, Visitable{
+public class Restaurant extends Node implements Classifiable, Visitable, Payable {
+    public float getEntryFee() {
+        return EntryFee;
+    }
+
+    public void setEntryFee(float entryFee) {
+        EntryFee = entryFee;
+    }
+
+    private float EntryFee;
     private String rank;
     private String openingHours;
    

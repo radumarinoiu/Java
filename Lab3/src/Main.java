@@ -5,32 +5,32 @@ import classes.Restaurant;
 
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Hotel v1 = new Hotel("Hotel Unirea");
+        Museum v2 = new Museum("Galeriile de Arta");
+        Museum v3 = new Museum("Muzeul Taranului Roman");
+        Church v4 = new Church("Biserica Sfanta Treime");
+        Church v5 = new Church("Biserica Trei Ierarhi");
+        Restaurant v6 = new Restaurant("Restaurant Mamma Mia");
 
-        Hotel v1= new Hotel("California");
-        Museum v2= new Museum("Grigore Antipa");
-        Church v3=new Church("Biserica Neagra");
-        Restaurant v4=new Restaurant("La Bomba");
+        TravelMap tm = new TravelMap();
 
-        TravelMap map= new TravelMap();
-        map.addNode(v1);
-        map.addNode(v2);
-        map.addNode(v3);
-        map.addNode(v4);
-        map.addEdges(v1, v2, 15);
-        map.addEdges(v3,v2,1,false);
-        map.addEdges(v1,v3,10);
-        map.addEdges(v3,v4,1);
-        map.addEdges(v2,v4,12);
+        tm.addNode(v1);
+        tm.addNode(v2);
+        tm.addNode(v3);
+        tm.addNode(v4);
+        tm.addNode(v5);
+        tm.addNode(v6);
 
-        System.out.println("The map is-> \n"+ map.getNodes());
-        //System.out.println(map);
+        tm.addEdges(v1, v2, 15);
+        tm.addEdges(v1, v3, 10);
+        tm.addEdges(v3, v2, 1, false);
+        tm.addEdges(v3, v4, 2);
+        tm.addEdges(v4, v5, 1);
+        tm.addEdges(v5, v6, 1);
+        tm.addEdges(v2, v6, 10);
 
-
+        System.out.println("The map is: \n" + tm.getNodes());
     }
 
 }
