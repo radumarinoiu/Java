@@ -6,16 +6,16 @@ import interfaces.Payable;
 
 public class Museum extends Node implements Payable, Visitable, Classifiable{
     @Override
-    public float getEntryFee() {
+    public double getEntryFee() {
         return EntryFee;
     }
 
     @Override
-    public void setEntryFee(float entryFee) {
+    public void setEntryFee(double entryFee) {
         EntryFee = entryFee;
     }
 
-    private float EntryFee;
+    private double EntryFee;
     private String openingHours;
     private String rank;
     
@@ -39,10 +39,22 @@ public class Museum extends Node implements Payable, Visitable, Classifiable{
     public void setRank(String rank) {
         this.rank = rank;
     }
+
+    private String closingHours;
+
+    @Override
+    public void setClosingHours(String closingHours) {
+        this.closingHours = closingHours;
+    }
+
+    @Override
+    public String getClosingHours() {
+        return closingHours;
+    }
     
 
     @Override
     public String toString() {
-        return "Museum{" +"name= "+getName()+"}\n";// ", entryFee=" + entryFee + ", openingHours=" + openingHours + ", rank=" + rank + '}'+'\n';
+        return "Museum{" +"name = "+getName()+"}\n";// ", entryFee=" + entryFee + ", openingHours=" + openingHours + ", rank=" + rank + '}'+'\n';
     }
 }

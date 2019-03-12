@@ -1,7 +1,14 @@
 import classes.Church;
 import classes.Hotel;
 import classes.Museum;
+import classes.Node;
 import classes.Restaurant;
+import interfaces.Payable;
+import interfaces.Visitable;
+
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.*;
 
 public class Main {
 
@@ -12,6 +19,24 @@ public class Main {
         Church v4 = new Church("Biserica Sfanta Treime");
         Church v5 = new Church("Biserica Trei Ierarhi");
         Restaurant v6 = new Restaurant("Restaurant Mamma Mia");
+
+        v1.setEntryFee(80);
+
+        v2.setEntryFee(16.99);
+        v2.setOpeningHours("10:00");
+        v2.setClosingHours("20:00");
+
+        v3.setEntryFee(8.5);
+        v3.setOpeningHours("09:00");
+        v3.setClosingHours("20:00");
+
+        v4.setOpeningHours("08:00");
+        v4.setClosingHours("20:00");
+
+        v5.setOpeningHours("08:00");
+        v5.setClosingHours("19:00");
+
+        v6.setEntryFee(24);
 
         TravelMap tm = new TravelMap();
 
@@ -31,6 +56,16 @@ public class Main {
         tm.addEdges(v2, v6, 10);
 
         System.out.println("The map is: \n" + tm.getNodes());
+
+        tm.getNodes().stream().filter(
+                node->((node instanceof Visitable)&&!(node instanceof Payable))
+        ).map(node -> (Visitable)node).sorted(
+                Comparator.comparing(Visitable::getOpeningHours).thenComparing(Visitable::getClosingHours)
+        ).forEach(
+                y-> System.out.println(y)
+        );
+
+        System.out.println(tm.GetShortestPath(v2, v3));
     }
 
 }

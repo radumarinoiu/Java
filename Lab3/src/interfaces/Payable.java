@@ -1,6 +1,6 @@
 package interfaces;
 public interface Payable {
-    public void setEntryFee(float entryFee);
-    public float getEntryFee();
+    public void setEntryFee(double entryFee);
+    public double getEntryFee();
     
 }

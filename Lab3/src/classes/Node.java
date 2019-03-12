@@ -2,7 +2,7 @@ package classes;
 
 public class Node {
     
-     private String name;
+    private String name;
     
     public String getName() {
         return name;
@@ -15,5 +15,4 @@ public class Node {
     public Node(String name) {
         this.name = name;
     }
-    
 }

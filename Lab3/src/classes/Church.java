@@ -11,6 +11,18 @@ import interfaces.Classifiable;
         return openingHours;
     }
 
+    private String closingHours;
+
+    @Override
+    public void setClosingHours(String closingHours) {
+        this.closingHours = closingHours;
+    }
+
+    @Override
+    public String getClosingHours() {
+        return closingHours;
+    }
+
     public void setOpeningHours(String openingHours) {
         this.openingHours = openingHours;
     }
@@ -30,7 +42,7 @@ import interfaces.Classifiable;
 
     @Override
     public String toString() {
-        return "Church{" +"name= "+getName()+ "}\n";//, openingHours=" + openingHours + ", rank=" + rank + '}'+'\n';
+        return "Church{" +"name = "+getName()+ "}\n";//, openingHours=" + openingHours + ", rank=" + rank + '}'+'\n';
     }
     
     

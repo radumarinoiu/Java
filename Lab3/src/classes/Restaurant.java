@@ -5,15 +5,15 @@ import interfaces.Visitable;
 import interfaces.Classifiable;
 
 public class Restaurant extends Node implements Classifiable, Visitable, Payable {
-    public float getEntryFee() {
+    public double getEntryFee() {
         return EntryFee;
     }
 
-    public void setEntryFee(float entryFee) {
+    public void setEntryFee(double entryFee) {
         EntryFee = entryFee;
     }
 
-    private float EntryFee;
+    private double EntryFee;
     private String rank;
     private String openingHours;
    
@@ -37,9 +37,21 @@ public class Restaurant extends Node implements Classifiable, Visitable, Payable
         this.openingHours = openingHours;
     }
 
+    private String closingHours;
+
+    @Override
+    public void setClosingHours(String closingHours) {
+        this.closingHours = closingHours;
+    }
+
+    @Override
+    public String getClosingHours() {
+        return closingHours;
+    }
+
     @Override
     public String toString() {
-        return "Restaurant{" +"name= " +getName()+"}\n";// ", rank=" + rank + ", openingHours=" + openingHours + '}'+'\n';
+        return "Restaurant{" +"name = " +getName()+"}\n";// ", rank=" + rank + ", openingHours=" + openingHours + '}'+'\n';
     }
     
     

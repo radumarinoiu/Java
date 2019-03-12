@@ -8,15 +8,15 @@ public class Hotel extends Node implements Classifiable, Payable {
     private String rank;
 
     @Override
-    public float getEntryFee() {
+    public double getEntryFee() {
         return EntryFee;
     }
 
-    public void setEntryFee(float entryFee) {
+    public void setEntryFee(double entryFee) {
         EntryFee = entryFee;
     }
 
-    private float EntryFee;
+    private double EntryFee;
     
     public Hotel(String name) {
         super(name);
@@ -33,7 +33,7 @@ public class Hotel extends Node implements Classifiable, Payable {
 
     @Override
     public String toString() {
-        return "Hotel{" +"name="+getName()+ "}\n";// ", rank=" + rank + '}'+'\n';
+        return "Hotel{" +"name = "+getName()+ "}\n";// ", rank=" + rank + '}'+'\n';
     }
 }
 
