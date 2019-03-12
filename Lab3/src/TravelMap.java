@@ -32,37 +32,62 @@ public class TravelMap {
        return Nodes;
     }
 
-    public List<Node> GetShortestPath(Node start_node, Node finish_node){
+    public List<Edge> GetShortestPath(Node start_node, Node finish_node){
         Node current_node = start_node;
-        Node next_node;
-        ArrayList<Node> path = new ArrayList<>();
+        ArrayList<Edge> path = new ArrayList<>();
         if(this.getNodes().contains(start_node) && this.getNodes().contains(finish_node)){
-            path.add(start_node);
             while(!current_node.equals(finish_node)){
                 Edge best_road = null;
                 for(Edge road: this.Edges){
                     if(
-                            (road.getFromLocation().equals(current_node) && !path.contains(road.getToLocation())) ||
-                            (road.getTwoWays() && road.getToLocation().equals(current_node) && !path.contains(road.getFromLocation()))
+                        !path.contains(road) &&
+                        (road.getFromLocation().equals(current_node) ||
+                        (road.getTwoWays() && road.getToLocation().equals(current_node)))
                     ){
                         if(best_road == null || best_road.getCost() > road.getCost()){
                             best_road = road;
                         }
                     }
                 }
-                if(best_road != null){
-                    if(best_road.getFromLocation().equals(current_node)){
-                        current_node = best_road.getToLocation();
-                    }
-                    else{
-                        current_node = best_road.getFromLocation();
-                    }
-                    path.add(current_node);
+                if(best_road == null){
+                    return new ArrayList<>();
                 }
-                else{
-                    break;
+                path.add(best_road);
+                if(best_road.getFromLocation().equals(current_node)){
+                    current_node = best_road.getToLocation();
+                }
+                else if(best_road.getTwoWays() && best_road.getToLocation().equals(current_node)){
+                    current_node = best_road.getFromLocation();
                 }
             }
+
+
+//            path.add(start_node);
+//            while(!current_node.equals(finish_node)){
+//                Edge best_road = null;
+//                for(Edge road: this.Edges){
+//                    if(
+//                            (road.getFromLocation().equals(current_node) && !path.contains(road.getToLocation())) ||
+//                            (road.getTwoWays() && road.getToLocation().equals(current_node) && !path.contains(road.getFromLocation()))
+//                    ){
+//                        if(best_road == null || best_road.getCost() > road.getCost()){
+//                            best_road = road;
+//                        }
+//                    }
+//                }
+//                if(best_road != null){
+//                    if(best_road.getFromLocation().equals(current_node)){
+//                        current_node = best_road.getToLocation();
+//                    }
+//                    else{
+//                        current_node = best_road.getFromLocation();
+//                    }
+//                    path.add(current_node);
+//                }
+//                else{
+//                    break;
+//                }
+//            }
         }
         return path;
     }

@@ -42,7 +42,7 @@ import interfaces.Classifiable;
 
     @Override
     public String toString() {
-        return "Church{" +"name = "+getName()+ "}\n";//, openingHours=" + openingHours + ", rank=" + rank + '}'+'\n';
+        return "Church{" +"name = "+getName()+ "}";//, openingHours=" + openingHours + ", rank=" + rank + '}'+'\n';
     }
     
     

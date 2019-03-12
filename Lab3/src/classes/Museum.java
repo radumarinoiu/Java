@@ -55,6 +55,6 @@ public class Museum extends Node implements Payable, Visitable, Classifiable{
 
     @Override
     public String toString() {
-        return "Museum{" +"name = "+getName()+"}\n";// ", entryFee=" + entryFee + ", openingHours=" + openingHours + ", rank=" + rank + '}'+'\n';
+        return "Museum{" +"name = "+getName()+"}";// ", entryFee=" + entryFee + ", openingHours=" + openingHours + ", rank=" + rank + '}'+'\n';
     }
 }

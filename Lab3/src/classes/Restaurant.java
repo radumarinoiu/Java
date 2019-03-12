@@ -51,7 +51,7 @@ public class Restaurant extends Node implements Classifiable, Visitable, Payable
 
     @Override
     public String toString() {
-        return "Restaurant{" +"name = " +getName()+"}\n";// ", rank=" + rank + ", openingHours=" + openingHours + '}'+'\n';
+        return "Restaurant{" +"name = " +getName()+"}";// ", rank=" + rank + ", openingHours=" + openingHours + '}'+'\n';
     }
     
     

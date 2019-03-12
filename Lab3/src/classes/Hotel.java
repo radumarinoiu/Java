@@ -33,7 +33,7 @@ public class Hotel extends Node implements Classifiable, Payable {
 
     @Override
     public String toString() {
-        return "Hotel{" +"name = "+getName()+ "}\n";// ", rank=" + rank + '}'+'\n';
+        return "Hotel{" +"name = "+getName()+ "}";// ", rank=" + rank + '}'+'\n';
     }
 }
 

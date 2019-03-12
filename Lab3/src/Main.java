@@ -1,8 +1,4 @@
-import classes.Church;
-import classes.Hotel;
-import classes.Museum;
-import classes.Node;
-import classes.Restaurant;
+import classes.*;
 import interfaces.Payable;
 import interfaces.Visitable;
 
@@ -65,7 +61,11 @@ public class Main {
                 y-> System.out.println(y)
         );
 
-        System.out.println(tm.GetShortestPath(v2, v3));
+        List<Edge> route = tm.GetShortestPath(v2, v3);
+        System.out.println("Route from " + v2 + " to " + v3);
+        for(Edge road: route){
+            System.out.println(road);
+        }
     }
 
 }
