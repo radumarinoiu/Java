@@ -1,0 +1,155 @@
+diff a/.idea/workspace.xml b/.idea/workspace.xml	(rejected hunks)
+@@ -26,91 +26,153 @@
+    </component>
+    <component name="FileEditorManager">
+      <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+++<<<<<<< HEAD
+ +      <file pinned="false" current-in-tab="false">
+ +        <entry file="file://$PROJECT_DIR$/Laborator3/src/map/representation/TravelMap.java">
+ +          <provider selected="true" editor-type-id="text-editor">
+ +            <state relative-caret-position="680">
+ +              <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+ +              <folding>
+ +                <element signature="e#424#425#0" expanded="true" />
+ +                <element signature="e#473#474#0" expanded="true" />
+ +                <element signature="e#745#746#0" expanded="true" />
+ +                <element signature="e#776#777#0" expanded="true" />
+ +                <element signature="e#1358#1359#0" expanded="true" />
+ +                <element signature="e#1415#1416#0" expanded="true" />
+++=======
++       <file pinned="false" current-in-tab="true">
++         <entry file="file://$PROJECT_DIR$/Laborator4/src/Main.java">
++           <provider selected="true" editor-type-id="text-editor">
++             <state relative-caret-position="323">
++               <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
++               <folding>
++                 <element signature="imports" expanded="true" />
+++>>>>>>> Added commands and catalog
+                </folding>
+              </state>
+            </provider>
+          </entry>
+        </file>
+        <file pinned="false" current-in-tab="false">
+++<<<<<<< HEAD
+ +        <entry file="file://$PROJECT_DIR$/Laborator3/Laborator3.iml">
+ +          <provider selected="true" editor-type-id="text-editor" />
+ +        </entry>
+ +      </file>
+ +      <file pinned="false" current-in-tab="false">
+ +        <entry file="file://$PROJECT_DIR$/Laborator3/src/Main.java">
+ +          <provider selected="true" editor-type-id="text-editor">
+ +            <state relative-caret-position="240">
+ +              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+++=======
++         <entry file="file://$PROJECT_DIR$/Laborator4/src/catalog/Catalog.java">
++           <provider selected="true" editor-type-id="text-editor">
++             <state relative-caret-position="1088">
++               <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
++               <folding>
++                 <element signature="imports" expanded="true" />
++                 <element signature="e#482#483#0" expanded="true" />
++                 <element signature="e#523#524#0" expanded="true" />
++                 <element signature="e#1067#1068#0" expanded="true" />
++                 <element signature="e#1098#1099#0" expanded="true" />
++                 <element signature="e#2745#2746#0" expanded="true" />
++               </folding>
+++>>>>>>> Added commands and catalog
+              </state>
+            </provider>
+          </entry>
+        </file>
+        <file pinned="false" current-in-tab="false">
+++<<<<<<< HEAD
+ +        <entry file="file://$PROJECT_DIR$/Laboratorul2/src/Main.java">
+ +          <provider selected="true" editor-type-id="text-editor">
+ +            <state relative-caret-position="277">
+ +              <caret line="40" selection-start-line="40" selection-end-line="40" />
+++=======
++         <entry file="file://$PROJECT_DIR$/Laborator4/src/catalog/Command.java">
++           <provider selected="true" editor-type-id="text-editor">
++             <state relative-caret-position="238">
++               <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
++               <folding>
++                 <element signature="imports" expanded="true" />
++                 <element signature="e#194#195#0" expanded="true" />
++                 <element signature="e#232#233#0" expanded="true" />
++               </folding>
+++>>>>>>> Added commands and catalog
+              </state>
+            </provider>
+          </entry>
+        </file>
+        <file pinned="false" current-in-tab="false">
+++<<<<<<< HEAD
+ +        <entry file="file://$PROJECT_DIR$/Laborator3/src/map/representation/Node.java">
+ +          <provider selected="true" editor-type-id="text-editor">
+ +            <state relative-caret-position="226">
+ +              <caret line="108" selection-start-line="108" selection-end-line="108" />
+ +              <folding>
+ +                <element signature="e#504#505#0" expanded="true" />
+ +                <element signature="e#533#534#0" expanded="true" />
+ +                <element signature="e#691#692#0" expanded="true" />
+ +                <element signature="e#723#724#0" expanded="true" />
+ +                <element signature="e#821#822#0" expanded="true" />
+ +                <element signature="e#848#849#0" expanded="true" />
+ +                <element signature="e#962#963#0" expanded="true" />
+ +                <element signature="e#1002#1003#0" expanded="true" />
+ +                <element signature="e#1212#1213#0" expanded="true" />
+ +                <element signature="e#1254#1255#0" expanded="true" />
+ +                <element signature="e#1290#1291#0" expanded="true" />
+ +                <element signature="e#1338#1339#0" expanded="true" />
+ +                <element signature="e#1376#1377#0" expanded="true" />
+ +                <element signature="e#1427#1428#0" expanded="true" />
+ +                <element signature="e#1460#1461#0" expanded="true" />
+ +                <element signature="e#1506#1507#0" expanded="true" />
+ +                <element signature="e#1750#1751#0" expanded="true" />
+ +                <element signature="e#1806#1807#0" expanded="true" />
+ +                <element signature="e#1855#1856#0" expanded="true" />
+ +                <element signature="e#1895#1896#0" expanded="true" />
+ +                <element signature="e#1965#1966#0" expanded="true" />
+ +                <element signature="e#2015#2016#0" expanded="true" />
+ +                <element signature="e#2075#2076#0" expanded="true" />
+ +                <element signature="e#2123#2124#0" expanded="true" />
+ +                <element signature="e#2159#2160#0" expanded="true" />
+ +                <element signature="e#2190#2191#0" expanded="true" />
+ +                <element signature="e#2233#2234#0" expanded="true" />
+ +                <element signature="e#2268#2269#0" expanded="true" />
+ +                <element signature="e#2356#2357#0" expanded="true" />
+++=======
++         <entry file="file://$PROJECT_DIR$/Laborator4/src/catalog/ListCommand.java">
++           <provider selected="true" editor-type-id="text-editor">
++             <state relative-caret-position="510">
++               <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
++             </state>
++           </provider>
++         </entry>
++       </file>
++       <file pinned="false" current-in-tab="false">
++         <entry file="file://$PROJECT_DIR$/Laborator4/src/catalog/LoadCommand.java">
++           <provider selected="true" editor-type-id="text-editor">
++             <state relative-caret-position="17">
++               <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
++               <folding>
++                 <element signature="imports" expanded="true" />
+++>>>>>>> Added commands and catalog
+                </folding>
+              </state>
+            </provider>
+          </entry>
+        </file>
+        <file pinned="false" current-in-tab="false">
+++<<<<<<< HEAD
+ +        <entry file="file://$PROJECT_DIR$/Laborator3/src/map/representation/Edge.java">
+ +          <provider selected="true" editor-type-id="text-editor">
+ +            <state relative-caret-position="17">
+ +              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+++=======
++         <entry file="file://$PROJECT_DIR$/Laborator4/src/exceptions/CatalogLoadException.java">
++           <provider selected="true" editor-type-id="text-editor">
++             <state relative-caret-position="85">
++               <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+++>>>>>>> Added commands and catalog
+              </state>
+            </provider>
+          </entry>
