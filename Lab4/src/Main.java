@@ -7,15 +7,15 @@ import items.Graph;
 public class Main {
     public static void main(String arg[]) throws ParseException {
 
-        String path = "..\\..\\..\\Extra";
+        String path = ".\\Extra";
 
         try {
             Catalog catalog = Catalog.getInstance();
-            Graph petersenGraph  = new Graph("Peterson", path + "\\peterson.tgf", path + "\\peterson.png");
+            Graph petersonGraph  = new Graph("Peterson", path + "\\peterson.tgf", path + "\\peterson.png");
             Graph k4Graph = new Graph("K4", path + "\\k4.tgf", path + "\\k4.png");
-            catalog.add (petersenGraph);
+            catalog.add (petersonGraph);
             catalog.add (k4Graph);
-            catalog.open(petersenGraph);
+            catalog.open(petersonGraph);
 
             catalog.save(path + "\\catalog.dat");
             catalog.load(path + "\\catalog.dat");
