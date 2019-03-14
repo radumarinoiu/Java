@@ -7,7 +7,7 @@ import items.Graph;
 public class Main {
     public static void main(String arg[]) throws ParseException {
 
-        String path = "C:\\Users\\Andrei - PC\\IdeaProjects\\JavaLabs\\Extra";
+        String path = "..\\..\\..\\Extra";
 
         try {
             Catalog catalog = Catalog.getInstance();
