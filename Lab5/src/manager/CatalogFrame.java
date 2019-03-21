@@ -26,7 +26,7 @@ public class CatalogFrame extends JFrame {
     private void addComponents(){
         add(form, BorderLayout.NORTH);
         add(list, BorderLayout.CENTER);
-        add(control, BorderLayout.SOUTH);
+            add(control, BorderLayout.SOUTH);
     }
 
 }

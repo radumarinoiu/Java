@@ -16,7 +16,7 @@ public class Main {
             catalog.add (petersonGraph);
             catalog.add (k4Graph);
             catalog.open(petersonGraph);
-
+            catalog.open(k4Graph);
             catalog.save(path + "\\catalog.dat");
             catalog.load(path + "\\catalog.dat");
             catalog.list();
