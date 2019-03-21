@@ -61,6 +61,16 @@ public class Main {
                 y-> System.out.println(y)
         );
 
+        double avg_price = 0;
+        List<Payable> lst = tm.getNodes().stream().filter(
+                node->(node instanceof Payable)
+        ).map(node -> (Payable)node).collect(Collectors.toList());
+
+        for(Payable pa: lst){
+            avg_price += pa.getEntryFee();
+        }
+        avg_price /= lst.size();
+
         List<Edge> route = tm.GetShortestPath(v2, v3);
         System.out.println("Route from " + v2 + " to " + v3);
         for(Edge road: route){
